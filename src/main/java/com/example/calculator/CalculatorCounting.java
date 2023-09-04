@@ -28,7 +28,7 @@ public class CalculatorCounting {
 
     public String divisionTest(int num1, int num2) {
         if (num2 == 0) {
-            return "Нельзя делить на 0";
+            return "Делить на 0 нельзя";
         }
 
         return divisionTest(num1,num2);
