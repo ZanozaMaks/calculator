@@ -1,12 +1,10 @@
-package com.example.calculator;
+package calcs;
 
+import counting.CalculatorCounting;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.swing.text.StyledEditorKit;
-import java.awt.*;
 
 @RestController
 
