@@ -22,7 +22,6 @@ class CalculatorCountingParameterizedTest {
 
     @ParameterizedTest
     @MethodSource("ParameterizedPlus")
-    @Test
     void plus(int num1, int num2, String result) {
         assertEquals(result, calculatorCounting.plus(num1,num2));
     }
@@ -34,7 +33,6 @@ class CalculatorCountingParameterizedTest {
     }
     @ParameterizedTest
     @MethodSource("ParameterizedMinus")
-    @Test
     void minus(int num1, int num2, String result) {
         assertEquals(result, calculatorCounting.minus(num1, num2));
     }
@@ -46,7 +44,6 @@ class CalculatorCountingParameterizedTest {
     }
     @ParameterizedTest
     @MethodSource("ParameterizedMultiply")
-    @Test
     void multiply(int num1, int num2, String result) {
         assertEquals(result, calculatorCounting.multiply(num1, num2));
 
@@ -60,7 +57,6 @@ class CalculatorCountingParameterizedTest {
     }
     @ParameterizedTest
     @MethodSource("ParameterizedDivide")
-    @Test
     void divide(int num1, int num2, String result) {
         assertEquals(result, calculatorCounting.divide(num1, num2));
 
